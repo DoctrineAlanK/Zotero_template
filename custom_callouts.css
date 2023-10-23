@@ -1,0 +1,30 @@
+.callout[data-callout="consider"] {
+    --callout-color: 255, 102, 102;
+    --callout-icon: lucide-circle-dot;
+}
+
+.callout[data-callout="interesting"] {
+    --callout-color: 255, 212, 0;
+    --callout-icon: lucide-star;
+}
+
+.callout[data-callout="statement"] {
+    --callout-color: 95, 178, 54;
+    --callout-icon: lucide-check-square;
+}
+
+.callout[data-callout="ordinary"] {
+    --callout-color: 241, 152, 55;
+    --callout-icon: lucide-lightbulb;
+}
+
+.callout[data-callout="reference"] {
+    --callout-color: 46, 168, 229;
+    --callout-icon: lucide-slack;
+}
+
+
+.callout[data-callout="method"] {
+    --callout-color: 162, 138, 229;
+    --callout-icon: lucide-settings;
+}
